@@ -1,8 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "0oaPXa/l8nyLcIjxztB/ox4kJyN0MOsBhCcqk+g8b1FfJkIySehRSe3WYEC1hzdIACcdoFG5lMDpvcRhQUJbng==",
+  "dgSpecHash": "ktZlsedR3XL6szUKhRMA8cKSslH1Mp7LcSZpxQOwCWVrT1DXLPOtQ0pp3k0OIcqpPuP3nScEorG2O0onuVncsw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nataliia_Tkachenko1\\source\\repos\\LP-IS-Taxopark\\Taxopark\\Taxopark\\Taxopark.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.22\\microsoft.aspnetcore.nodeservices.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.22\\microsoft.aspnetcore.spaservices.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\3.1.22\\microsoft.aspnetcore.spaservices.extensions.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.22\\microsoft.extensions.configuration.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.22\\microsoft.extensions.configuration.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.22\\microsoft.extensions.configuration.binder.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.22\\microsoft.extensions.dependencyinjection.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.22\\microsoft.extensions.dependencyinjection.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.22\\microsoft.extensions.fileproviders.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.22\\microsoft.extensions.fileproviders.physical.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.22\\microsoft.extensions.filesystemglobbing.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.logging\\3.1.22\\microsoft.extensions.logging.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.22\\microsoft.extensions.logging.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.22\\microsoft.extensions.logging.configuration.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.22\\microsoft.extensions.logging.console.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.options\\3.1.22\\microsoft.extensions.options.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.22\\microsoft.extensions.options.configurationextensions.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.22\\microsoft.extensions.primitives.3.1.22.nupkg.sha512",
+    "C:\\Users\\Nataliia_Tkachenko1\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
