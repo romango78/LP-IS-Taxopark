@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxopark", "Taxopark\Taxopark.csproj", "{B0A1ECB4-A7F5-4177-9720-710B0DF301ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxopark", "Taxopark\Taxopark.csproj", "{B0A1ECB4-A7F5-4177-9720-710B0DF301ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FF82D378-FF7C-4AE2-B1EA-37419485F89B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxopark.Infrastructure.Data", "Taxopark.Infrastructure.Data\Taxopark.Infrastructure.Data.csproj", "{8F50E28B-2CF7-44F4-AB55-D9AB594B45D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C15D0D6B-2385-49B7-A2EF-D83963B1056C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{D6454FDE-484A-4076-BFC5-198AB784B5E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,22 @@ Global
 		{B0A1ECB4-A7F5-4177-9720-710B0DF301ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0A1ECB4-A7F5-4177-9720-710B0DF301ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0A1ECB4-A7F5-4177-9720-710B0DF301ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F50E28B-2CF7-44F4-AB55-D9AB594B45D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F50E28B-2CF7-44F4-AB55-D9AB594B45D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F50E28B-2CF7-44F4-AB55-D9AB594B45D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F50E28B-2CF7-44F4-AB55-D9AB594B45D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6454FDE-484A-4076-BFC5-198AB784B5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6454FDE-484A-4076-BFC5-198AB784B5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6454FDE-484A-4076-BFC5-198AB784B5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6454FDE-484A-4076-BFC5-198AB784B5E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0A1ECB4-A7F5-4177-9720-710B0DF301ED} = {C15D0D6B-2385-49B7-A2EF-D83963B1056C}
+		{8F50E28B-2CF7-44F4-AB55-D9AB594B45D0} = {FF82D378-FF7C-4AE2-B1EA-37419485F89B}
+		{D6454FDE-484A-4076-BFC5-198AB784B5E9} = {C15D0D6B-2385-49B7-A2EF-D83963B1056C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {792A5627-AAF2-4523-8F1F-10FBEEFD0E5A}
