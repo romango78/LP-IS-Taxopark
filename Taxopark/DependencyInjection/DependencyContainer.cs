@@ -12,10 +12,10 @@ namespace DependencyInjection
     {
         public static void AddDependencies(IServiceCollection services, IConfiguration configuration)
         {
-            ConfigureMySQLContext(services, configuration);
+            ConfigureDBContext(services, configuration);
         }
 
-        private static void ConfigureMySQLContext(IServiceCollection services, IConfiguration configuration)
+        private static void ConfigureDBContext(IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration["mysqlconnection:connectionString"];
             services.AddDbContext<TaxoparkContext>(opt => opt.UseMySql(connectionString));
