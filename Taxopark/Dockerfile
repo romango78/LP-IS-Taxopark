@@ -15,7 +15,9 @@ RUN apt-get update -yq \
     && curl -sL https://deb.nodesource.com/setup_16.x | bash \
     && apt-get install nodejs -yq
 WORKDIR /src
-COPY ["Taxopark/Taxopark.csproj", "Taxopark/"]
+COPY ./*.sln ./
+COPY ./*/*.csproj ./
+RUN for file in $(ls *.csproj); do mkdir -p ./${file%.*}/ && mv $file ./${file%.*}/; done
 RUN dotnet restore "Taxopark/Taxopark.csproj"
 COPY . .
 WORKDIR "/src/Taxopark"
